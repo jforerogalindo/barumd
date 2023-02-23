@@ -1,0 +1,20 @@
+[
+    {
+      "identification": "1020841879",
+      "name": "Laura Zorro",
+      "password": "Daniela9906_",
+      "rolId": 1
+    },
+    {
+      "identification": "123456789",
+      "name": "Pepito Perez",
+      "password": "XXXXXXXXXXXX",
+      "rolId": 1
+    },
+    {
+      "identification": "07654321234",
+      "name": "Sancocho Ortiz",
+      "password": "XXXXXXXXXXXX",
+      "rolId": 1
+    }
+  ]

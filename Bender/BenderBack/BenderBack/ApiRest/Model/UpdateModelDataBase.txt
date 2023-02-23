@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Server=localhost;Port=3306;Database=Bender;Uid=root;Pwd=toor;SslMode=None;ConnectionTimeout=300" Pomelo.EntityFrameworkCore.MySql -OutputDir Model/Bender -f

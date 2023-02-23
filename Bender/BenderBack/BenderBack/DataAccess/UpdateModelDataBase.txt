@@ -1,0 +1,1 @@
+﻿Scaffold-DbContext "Data Source=localhost;Initial Catalog=Bender;Persist Security Info=True;User ID=Bender;Password=Bender;MultipleActiveResultSets=True" Microsoft.EntityFrameworkCore.SqlServer -o Model/Bender -Force 
