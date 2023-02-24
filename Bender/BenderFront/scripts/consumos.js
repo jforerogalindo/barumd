@@ -49,18 +49,18 @@ function editUser(identification, userName, password, rolId) {
 }
 //---------------------------------------------------------------------------------------
 function rolsGetAll() {
-    return consumoAjax("GET", urlBase + "Roles/GetAll", "", "");
-    //return consumoAjax("GET", "consumos/listroles.json", "", "");
+    //return consumoAjax("GET", urlBase + "Roles/GetAll", "", "");
+    return consumoAjax("GET", "consumos/listroles.json", "", "");
 }
 //---------------------------------------------------------------------------------------
 function userGetAll() {
-    return consumoAjax("GET", urlBase + "User/GetAll", "", "");
-    //return consumoAjax("GET", "consumos/listuser.json", "", "");
+    //return consumoAjax("GET", urlBase + "User/GetAll", "", "");
+    return consumoAjax("GET", "consumos/listuser.json", "", "");
 }
 //---------------------------------------------------------------------------------------
 function supplierGetAll() {
-    return consumoAjax("GET", urlBase + "Purchases/GetAll", "", "");
-    //return consumoAjax("GET", "consumos/listproveedores.json", "", "");
+    //return consumoAjax("GET", urlBase + "Purchases/GetAll", "", "");
+    return consumoAjax("GET", "consumos/listproveedores.json", "", "");
 }
 //---------------------------------------------------------------------------------------
 function insertSupplier(identification, name) {
@@ -86,8 +86,8 @@ function deleteSupplier(supplierId) {
 }
 //---------------------------------------------------------------------------------------
 function productGetAll() {
-    return consumoAjax("GET", urlBase + "Products/GetAll", "", "");
-    //return consumoAjax("GET", "consumos/listproductos.json", "", "");
+    //return consumoAjax("GET", urlBase + "Products/GetAll", "", "");
+    return consumoAjax("GET", "consumos/listproductos.json", "", "");
 }
 //---------------------------------------------------------------------------------------
 function insertProduct(name, supplier, price) {
